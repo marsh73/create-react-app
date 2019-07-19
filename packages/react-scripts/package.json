@@ -30,8 +30,18 @@
   "dependencies": {
     "@babel/core": "7.4.3",
     "@svgr/webpack": "4.3.1",
+    "@types/classnames": "^2.2.7",
+    "@types/jest": "24.0.11",
+    "@types/node": "11.9.4",
+    "@types/react": "16.8.13",
+    "@types/react-dom": "16.8.4",
+    "@types/styled-components": "^4.1.10",
     "@typescript-eslint/eslint-plugin": "1.10.2",
     "@typescript-eslint/parser": "1.10.2",
+    "apollo-boost": "^0.1.28",
+    "apollo-datasource-rest": "^0.3.2",
+    "apollo-server": "^2.4.6",
+    "apollo-server-express": "^2.4.6",
     "babel-eslint": "10.0.1",
     "babel-jest": "^24.8.0",
     "babel-loader": "8.0.5",
@@ -50,6 +60,11 @@
     "eslint-plugin-jsx-a11y": "6.2.1",
     "eslint-plugin-react": "7.12.4",
     "eslint-plugin-react-hooks": "^1.5.0",
+    "formik": "^1.5.2",
+    "graphql": "^14.1.1",
+    "graphql-tag": "^2.10.1",
+    "graphql-tools": "^4.0.4",
+    "node-sass": "^4.11.0",
     "file-loader": "3.0.1",
     "fs-extra": "7.0.1",
     "html-webpack-plugin": "4.0.0-beta.5",
@@ -67,6 +82,10 @@
     "postcss-normalize": "7.0.1",
     "postcss-preset-env": "6.6.0",
     "postcss-safe-parser": "4.0.1",
+    "react-apollo": "^2.4.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.8",
     "react-app-polyfill": "^1.0.1",
     "react-dev-utils": "^9.0.1",
     "resolve": "1.10.0",
@@ -75,6 +94,9 @@
     "style-loader": "0.23.1",
     "terser-webpack-plugin": "1.2.3",
     "ts-pnp": "1.1.2",
+    "typescript": "3.3.3",
+    "walrus": "git+https://a830ed8c89246692a5f10a33b11224c405e90fb5:x-oauth-basic@github.internal.digitalocean.com/digitalocean/walrus.git#1.0.1",
+    "yup": "^0.26.10",
     "url-loader": "2.0.1",
     "webpack": "4.35.0",
     "webpack-dev-server": "3.2.1",
@@ -82,8 +104,10 @@
     "workbox-webpack-plugin": "4.2.0"
   },
   "devDependencies": {
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1"
   },
   "optionalDependencies": {
     "fsevents": "2.0.7"
@@ -92,6 +116,7 @@
     "production": [
       ">0.2%",
       "not dead",
+      "not ie <= 11",
       "not op_mini all"
     ],
     "development": [
