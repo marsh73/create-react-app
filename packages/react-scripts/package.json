@@ -91,7 +91,7 @@
     "ts-pnp": "1.1.2",
     "typescript": "3.3.3",
     "url-loader": "2.0.1",
-    "walrus": "git+https://a830ed8c89246692a5f10a33b11224c405e90fb5:x-oauth-basic@github.internal.digitalocean.com/digitalocean/walrus.git#1.0.1",
+    "walrus": "git+https://a830ed8c89246692a5f10a33b11224c405e90fb5:x-oauth-basic@github.internal.digitalocean.com/digitalocean/walrus.git#1.0.4",
     "webpack": "4.35.0",
     "webpack-dev-server": "3.2.1",
     "webpack-manifest-plugin": "2.0.4",
