@@ -441,6 +441,7 @@ module.exports = function(webpackEnv) {
                     { helpers: true },
                   ],
                 ],
+                plugins: [require.resolve('babel-plugin-styled-components')],
                 cacheDirectory: true,
                 cacheCompression: isEnvProduction,
                 // @remove-on-eject-begin
